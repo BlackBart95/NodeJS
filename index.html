@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> -->
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- Start your project here-->
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+      <div class="col-md-6" ng-app="authentification">
+        <!-- Default form register -->
+        <div class="text-center border border-light p-5" ng-controller="checkLogin">
+          <p class="h4 mb-4">Sign in</p>
+          <!-- Login -->
+          <div class="md-form">
+            <input type="text" id="login" class="form-control" ng-model="login">
+            <label for="login">Login</label>
+          </div>
+          <!-- Password -->
+          <div class="md-form">
+            <input type="password" id="password" class="form-control" ng-model="password">
+            <label for="password">Password</label>
+          </div>
+          <!-- Sign up button -->
+          <button class="btn btn-info my-4 btn-block" type="submit" onclick="authentification()">Sign in</button>
+        </div>
+        <!-- Default form register -->        
+      </div>
+  </div>
+  <div id="test"></div>
+</div>
+<!-- /Start your project here-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!--Angular JS-->
+<script type="text/javascript" src="./js/angularjs/angular.min.js"></script>
+<!-- Fonction -->
+<script type="text/javascript" src="js/mine/function.js"></script>
+</body>
+
+</html>
